@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate A New Password</title>
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1>Generate A New Password</h1>
+    <br>
+    
+    <div class="form">
+        <label for="Plen">Password Length: </label>
+        <input type="number" max="16" name="Plen" id="Plen">
+        <br>
+        <label for="Alphanum">Alphanumerical?: </label>
+        <input type="checkbox" name="Alphanum" id="Alphanum">
+        <br>
+        <button onclick="GenerateNewPass()" id="submitbtn">Generate My Password</button>
+    </div>
+    <div id="NewPasswordDiv">
+        <p>New password:</p>
+        <br>
+    </div>
+</body>
+</html>
