@@ -28,6 +28,9 @@ body h1 {
 }
 
 #NewPasswordDiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
     background-color: rgb(146, 146, 146);
 }
 
@@ -53,4 +56,8 @@ body h1 {
 #submitbtn:active {
     box-shadow: none;
     transform: translateY(5px);
+}
+
+#NewPasswordDiv input {
+    align-self: center;
 }
